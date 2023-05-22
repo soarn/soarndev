@@ -1,0 +1,13 @@
+<li>
+    <a href="{{ .Params.href }}">
+        <span class="ca-icon target {{ .Params.profile }}">
+  {{ if (isset .Params "solid")}}
+      <i class="fa-solid fa-{{ .Params.solid }}"></i>
+  {{ else if (not (isset .Params "image")) | or (eq .Params.image "") }}
+      <i class="fab fa-{{ .Params.profile }}"></i>
+  {{ else }}
+      <img src="{{ $.Site.BaseURL}}{{ .Params.image }}">
+  {{ end }}
+  </span>
+    </a>
+</li>

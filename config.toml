@@ -1,0 +1,11 @@
+baseURL = 'https://soarn.dev/'
+languageCode = 'en-us'
+title = 'Irekalis | About'
+theme = "just-me"
+
+[params]
+  author = "Jack"
+  author_link = "https://soarn.dev"
+
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
