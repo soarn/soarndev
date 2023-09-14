@@ -1,4 +1,4 @@
-<head><script async src="https://mono.soarn.dev/script.js" data-website-id="706c706a-c1c5-46fe-9a7b-379afd3a9418"></script></head>
+<html><head><script async src="https://mono.soarn.dev/script.js" data-website-id="706c706a-c1c5-46fe-9a7b-379afd3a9418"></script></head></html>
 
 ---
 title: "Hello!"
